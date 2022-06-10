@@ -1,0 +1,38 @@
+.boton{
+    height: 80px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 40px;
+    font-weight: bold;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+
+    background-color: #8093f1;
+    color: white;
+    
+    border: 2px solid white;
+    border-radius: 20px;
+   
+    cursor: pointer;
+    user-select: none;
+
+    margin: 4px;
+
+
+}
+
+.boton:hover{
+    background-color: #b388eb;
+
+
+}
+.operador{
+    background-color: #fdc5f5;
+
+}
+.operador:hover{
+    background-color: #f7aef8;
+    
+}

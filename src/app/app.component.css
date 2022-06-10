@@ -1,0 +1,7 @@
+.fondo{
+    height: 100vh;
+    background-color: #2a3466;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

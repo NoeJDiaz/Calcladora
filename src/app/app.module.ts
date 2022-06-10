@@ -3,14 +3,24 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { CalculadoraComponent } from './components/calculadora/calculadora.component';
+import { BotonComponent } from './components/boton/boton.component';
+import { DisplayComponent } from './components/display/display.component';
+import { BotonclearComponent } from './components/botonclear/botonclear.component';
+import { NgParticlesModule } from "ng-particles";
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CalculadoraComponent,
+    BotonComponent,
+    DisplayComponent,
+    BotonclearComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgParticlesModule
   ],
   providers: [],
   bootstrap: [AppComponent]
